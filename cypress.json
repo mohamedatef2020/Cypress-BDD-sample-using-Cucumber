@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://www.adp.com/resources/tools/calculators/states/new-york-salary-paycheck-calculator.aspx",
+  "integrationFolder": "cypress/integration",
+    "testFiles": "**/*.{feature,features}",
+    "ignoreTestFiles": "*.js",
+    "screenshotsFolder": "cypress/screenshots",
+    "videosFolder": "cypress/videos",
+    "viewportWidth": 1515,
+    "viewportHeight": 750,
+    "retries": {
+        "runMode": 2,
+        "openMode": 2
+      }
+}
