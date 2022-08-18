@@ -1,10 +1,10 @@
 Feature: Verify display of validation error 
 
 Background:
-        Given I open ADP website
-        # And select State Taxes
+        Given I visit ADP website
+        And I select State Taxes
+
 Scenario: Check that negative number validation error is displayed 
-    # When I enter earnings data
-    # And I set my state taxes to "alabama"
-    # And I enter negative value in dependents
-    # Then i should see error message
+    Given I choose my state "Alabama"
+    When I enter negative value in dependents
+    Then I should see validation error message

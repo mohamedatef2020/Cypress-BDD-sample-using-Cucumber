@@ -4,11 +4,9 @@
     "testFiles": "**/*.{feature,features}",
     "ignoreTestFiles": "*.js",
     "screenshotsFolder": "cypress/screenshots",
+    "defaultCommandTimeout": 10000,
     "videosFolder": "cypress/videos",
     "viewportWidth": 1515,
     "viewportHeight": 750,
-    "retries": {
-        "runMode": 2,
-        "openMode": 2
-      }
+    "includeShadowDom": true
 }
