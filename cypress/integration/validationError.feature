@@ -6,5 +6,5 @@ Background:
 
 Scenario: Check that negative number validation error is displayed 
     Given I choose my state "Alabama"
-    When I enter negative value in dependents
+    When I type a negative value in dependents number
     Then I should see validation error message
