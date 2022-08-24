@@ -25,11 +25,8 @@
     "url": "https://github.com/mohamedatef2020/Cypress-BDD-sample-using-Cucumber/issues"
   },
   "homepage": "https://github.com/mohamedatef2020/Cypress-BDD-sample-using-Cucumber#readme",
-
-  "dependencies": {
-    "cypress": "^9.2.0"
-  },
   "devDependencies": {
+    "cypress": "^10.6.0",
     "cypress-cucumber-preprocessor": "^4.3.1"
   }
 }
